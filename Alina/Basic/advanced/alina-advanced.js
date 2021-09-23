@@ -10,5 +10,5 @@ let convert = number => {
     }
  return `${number} minutes = ${h} hour(s) and ${m} minute(s)`;
 }
-console.log(convert(200));
-document.write(convert(200));
+console.log(convert(42)); //output: 42 minutes = 0 hour(s) and 42 minute(s)
+document.write(convert(200)); //output: 200 minutes = 3 hour(s) and 20 minute(s)
