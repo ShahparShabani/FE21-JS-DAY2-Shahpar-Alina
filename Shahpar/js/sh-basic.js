@@ -1,4 +1,4 @@
-document.write("<h1>Basic</h1> <br/><br/>");
+document.write("<h1>Basic</h1><br/>");
 
 // Ex 1 | Crystal Gazer
 document.write("<h3>Ex 1 | Crystal Gazer</h3> <br/><br/>");
@@ -10,7 +10,7 @@ function crystalGazer(children, partnersName, location, job) {
 
 let callCryGazer = crystalGazer(2, "Mike", "Wien", "Developer");
 
-document.write("<br/><br/><hr/><br/><br/>");
+document.write("<br/><br/><hr/>");
 
 // Ex 2 | Age Calculator
 document.write("<h3>Ex 2 | Age Calculator</h3> <br/>");
